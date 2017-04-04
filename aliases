@@ -2,11 +2,6 @@
 alias ...='../..'
 alias zrc="vim ~/.zshrc"
 alias vrc="vim ~/.vimrc"
-if [ $USER != 'ubuntu' ]
-then
-  alias vim="stty stop '' -ixoff; /usr/local/Cellar/vim/7.4.1847/bin/vim"
-  alias vi="stty stop '' -ixoff; /usr/local/Cellar/vim/7.4.1847/bin/vim"
-fi
 alias vinstall="vim +PluginInstall +qall"
 alias :q="exit"
 alias wds="webpack-dev-server"
@@ -21,3 +16,4 @@ alias gd="git diff"
 alias gs="git status"
 alias glog="git log"
 alias simpleserver="python -m SimpleHTTPServer"
+alias eslint="node_modules/.bin/eslint"
